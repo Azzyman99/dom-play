@@ -7,27 +7,57 @@
   <meta name="viewport" content="width=device-width" />
   <link rel="stylesheet" href="css/main.css" />
   <link rel="stylesheet" href="css/nav.css" />
-  <script src="js/main.js"></script>
-
+  <style>
+   
+  </style>
  </head>
  <body>
      <header>
-     <h1>Title goes here</h1>
-        <nav class="topnav" id="myTopnav">
-            <a href="index.html" class="active">Home</a>
-            <a href="https://azzyman99.github.io/stylin-with-css" target="_blank"> name of project goes here</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-        </nav>
+     <h1>DOM Play</h1>
      </header>
      
-       <h2 class="subheader">title goes here </h2>
-       <p> content goes here </p>
-     
+   <main class="wrapper">
+    <p>This page uses JavaScript to allow a user to click on the name of an actor and highlight their lines in a play. 
+        This page uses data-attributes and loops through and an anonymous function to loop through a nodelist and compare 
+        data-attributes to highlight or unhighlight text.</p>
+     <div id="play">
+        <p><span data-actor="Vader">Vader: You are beaten. It is useless
+                                            to resist. Don’t let yourself
+                                            be destroyed as Obi-Wan did.</span></p>
+
+      <p>Luke answers by rolling sideways and thrusting his sword at Vader so
+        viciously that he nicks Vader on the shoulder</p>
+
+      <p><span data-actor="Vader">Vader: There is no escape. Don’t make
+                                            me destroy you. You do not yet
+                                            realize your importance. You
+                                            have only begun to discover your
+                                            power. Join me and I will complete
+                                            your training. With our combined
+                                            strength, we can end this destructive
+                                            conflict and bring order to the
+                                            galaxy.</span></p>
+       
+      <p><span data-actor="Luke">Luke: I’ll never join you!</span></p>
+
+      <p><span data-actor="Vader">Vader: If you only knew the power of the
+                                            dark side. Obi-Wan never told
+                                            you what happened to your father.</span></p>
+      <p><span data-actor="Luke">Luke: He told me enough! It was you
+                                        who killed him.</span></p>
+      <p><span data-actor="Vader">Vader: No. I am your father.</span></p>
+
+      <center><iframe width="800" height="315" src="https://www.youtube.com/embed/_lOT2p_FCvA" title="YouTube video player" frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+     <footer>
       <p><small>&copy; 2021 by 
-          Ozzy Vasquez, All Rights Reserved ~ 
+          YOUR NAME HERE, All Rights Reserved ~ 
           <a id="html-checker" href="#">Check HTML</a> ~ 
           <a id="css-checker" href="#">Check CSS</a></small>
      </p>
+    </footer>
+  </main>
+  <script src="js/dom-play.js"></script>
   <script src="js/main.js"></script>
  </body>
 </html>

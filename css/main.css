@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 html {
-    background-color: #164A41;
+    background-color: #4b4b4b;
     font-family: 'Varela Round', sans-serif;
     font-size: 0.95em;
     line-height: 1.5em;
@@ -16,12 +16,12 @@ html {
 h1 {
     font-weight: normal;
     margin: auto;
-    background: #9DC88D;
+    background: #ca3232;
     line-height: 2.5em;
 }
 
 main.wrapper {
-    background-color: #4D774E;
+    background-color: #ee5252;
     overflow: auto;
 }
 
